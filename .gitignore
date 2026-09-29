@@ -1,0 +1,11 @@
+node_modules/
+.next/
+.env*
+!.env.example
+out/
+dist/
+
+*.tsbuildinfo
+ChatGPT Image Sep 27, 2026, 05_15_26 PM.png
+ChatGPT Image Sep 27, 2026, 05_16_56 PM.png
+ZAivis_Website_Product_Technical_Design_Document.docx

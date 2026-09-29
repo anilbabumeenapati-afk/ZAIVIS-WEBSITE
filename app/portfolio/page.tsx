@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import MobileNav from "@/components/mobile-nav";
 
 export const metadata: Metadata = {
   title: "Portfolio — ZAIVIS",
@@ -75,6 +76,7 @@ export default function PortfolioPage() {
             <Link href="/about">About</Link>
           </nav>
           <Link className="header-cta" href="/contact">Contact <span aria-hidden="true">↗</span></Link>
+          <MobileNav />
         </div>
       </header>
       <main className="portfolio-page" id="portfolio-main">

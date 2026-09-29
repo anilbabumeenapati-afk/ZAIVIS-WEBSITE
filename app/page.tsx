@@ -1,5 +1,6 @@
 import Image from "next/image";
 import BrandMarquee from "@/components/brand-marquee";
+import MobileNav from "@/components/mobile-nav";
 
 const pillars = [
   {
@@ -52,6 +53,7 @@ function Header() {
         <a className="header-cta" href="/contact">
           Contact <span aria-hidden="true">↗</span>
         </a>
+        <MobileNav />
       </div>
     </header>
   );

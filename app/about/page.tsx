@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import MobileNav from "@/components/mobile-nav";
 
 export const metadata: Metadata = {
   title: "About — ZAIVIS",
@@ -18,6 +19,7 @@ function Header() {
           <Link href="/">Home</Link><Link href="/portfolio">Portfolio</Link><Link href="/programs">Programs</Link><Link href="/about" aria-current="page">About</Link>
         </nav>
         <Link className="header-cta" href="/contact">Contact <span aria-hidden="true">↗</span></Link>
+        <MobileNav />
       </div>
     </header>
   );
